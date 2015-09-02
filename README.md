@@ -1,0 +1,3 @@
+# IURNavgationBarChangeBackgroundColor
+
+实现滑动UITableview改变导航控制器导航条的透明度和背景颜色，类似京东IOS客户端首页导航效果
