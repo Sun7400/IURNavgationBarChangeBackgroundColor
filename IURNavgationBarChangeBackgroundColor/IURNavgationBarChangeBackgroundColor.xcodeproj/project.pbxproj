@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C54C1ECC1B96DD7B0055E857 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C1ECB1B96DD7B0055E857 /* main.m */; };
+		C54C1ECF1B96DD7B0055E857 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C1ECE1B96DD7B0055E857 /* AppDelegate.m */; };
+		C54C1ED21B96DD7B0055E857 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C1ED11B96DD7B0055E857 /* ViewController.m */; };
+		C54C1ED51B96DD7B0055E857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54C1ED31B96DD7B0055E857 /* Main.storyboard */; };
+		C54C1ED71B96DD7B0055E857 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54C1ED61B96DD7B0055E857 /* Images.xcassets */; };
+		C54C1EDA1B96DD7B0055E857 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54C1ED81B96DD7B0055E857 /* LaunchScreen.xib */; };
+		C54C1EE61B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C1EE51B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.m */; };
+		C54C1EF21B96DDD30055E857 /* IURExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C1EF01B96DDD30055E857 /* IURExampleViewController.m */; };
+		C54C1EF31B96DDD30055E857 /* IURExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54C1EF11B96DDD30055E857 /* IURExampleViewController.xib */; };
+		C54C1EF81B96DE4B0055E857 /* UINavigationBar+ChangeNavigationBarBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C1EF71B96DE4B0055E857 /* UINavigationBar+ChangeNavigationBarBackgroundColor.m */; };
+		C54C1EFA1B96E0FF0055E857 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C54C1EF91B96E0FF0055E857 /* bg.jpg */; };
+		C54C1EFE1B96E1540055E857 /* IURDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C1EFC1B96E1540055E857 /* IURDetailViewController.m */; };
+		C54C1EFF1B96E1540055E857 /* IURDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54C1EFD1B96E1540055E857 /* IURDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C54C1EE01B96DD7B0055E857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54C1EBE1B96DD7B0055E857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54C1EC51B96DD7B0055E857;
+			remoteInfo = IURNavgationBarChangeBackgroundColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C54C1EC61B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IURNavgationBarChangeBackgroundColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54C1ECA1B96DD7B0055E857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54C1ECB1B96DD7B0055E857 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C54C1ECD1B96DD7B0055E857 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C54C1ECE1B96DD7B0055E857 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C54C1ED01B96DD7B0055E857 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C54C1ED11B96DD7B0055E857 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C54C1ED41B96DD7B0055E857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C54C1ED61B96DD7B0055E857 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C54C1ED91B96DD7B0055E857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C54C1EDF1B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IURNavgationBarChangeBackgroundColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54C1EE41B96DD7B0055E857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54C1EE51B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IURNavgationBarChangeBackgroundColorTests.m; sourceTree = "<group>"; };
+		C54C1EEF1B96DDD30055E857 /* IURExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IURExampleViewController.h; sourceTree = "<group>"; };
+		C54C1EF01B96DDD30055E857 /* IURExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IURExampleViewController.m; sourceTree = "<group>"; };
+		C54C1EF11B96DDD30055E857 /* IURExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IURExampleViewController.xib; sourceTree = "<group>"; };
+		C54C1EF61B96DE4B0055E857 /* UINavigationBar+ChangeNavigationBarBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ChangeNavigationBarBackgroundColor.h"; sourceTree = "<group>"; };
+		C54C1EF71B96DE4B0055E857 /* UINavigationBar+ChangeNavigationBarBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ChangeNavigationBarBackgroundColor.m"; sourceTree = "<group>"; };
+		C54C1EF91B96E0FF0055E857 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		C54C1EFB1B96E1540055E857 /* IURDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IURDetailViewController.h; sourceTree = "<group>"; };
+		C54C1EFC1B96E1540055E857 /* IURDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IURDetailViewController.m; sourceTree = "<group>"; };
+		C54C1EFD1B96E1540055E857 /* IURDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IURDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C54C1EC31B96DD7B0055E857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54C1EDC1B96DD7B0055E857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C54C1EBD1B96DD7B0055E857 = {
+			isa = PBXGroup;
+			children = (
+				C54C1EC81B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor */,
+				C54C1EE21B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests */,
+				C54C1EC71B96DD7B0055E857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C54C1EC71B96DD7B0055E857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54C1EC61B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor.app */,
+				C54C1EDF1B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54C1EC81B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor */ = {
+			isa = PBXGroup;
+			children = (
+				C54C1EF51B96DDE70055E857 /* IURCbc */,
+				C54C1EF41B96DDDD0055E857 /* DEMO */,
+				C54C1ECD1B96DD7B0055E857 /* AppDelegate.h */,
+				C54C1ECE1B96DD7B0055E857 /* AppDelegate.m */,
+				C54C1ED01B96DD7B0055E857 /* ViewController.h */,
+				C54C1ED11B96DD7B0055E857 /* ViewController.m */,
+				C54C1ED31B96DD7B0055E857 /* Main.storyboard */,
+				C54C1ED61B96DD7B0055E857 /* Images.xcassets */,
+				C54C1ED81B96DD7B0055E857 /* LaunchScreen.xib */,
+				C54C1EC91B96DD7B0055E857 /* Supporting Files */,
+			);
+			path = IURNavgationBarChangeBackgroundColor;
+			sourceTree = "<group>";
+		};
+		C54C1EC91B96DD7B0055E857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54C1EF91B96E0FF0055E857 /* bg.jpg */,
+				C54C1ECA1B96DD7B0055E857 /* Info.plist */,
+				C54C1ECB1B96DD7B0055E857 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C54C1EE21B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C54C1EE51B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.m */,
+				C54C1EE31B96DD7B0055E857 /* Supporting Files */,
+			);
+			path = IURNavgationBarChangeBackgroundColorTests;
+			sourceTree = "<group>";
+		};
+		C54C1EE31B96DD7B0055E857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54C1EE41B96DD7B0055E857 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C54C1EF41B96DDDD0055E857 /* DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				C54C1EEF1B96DDD30055E857 /* IURExampleViewController.h */,
+				C54C1EF01B96DDD30055E857 /* IURExampleViewController.m */,
+				C54C1EF11B96DDD30055E857 /* IURExampleViewController.xib */,
+				C54C1EFB1B96E1540055E857 /* IURDetailViewController.h */,
+				C54C1EFC1B96E1540055E857 /* IURDetailViewController.m */,
+				C54C1EFD1B96E1540055E857 /* IURDetailViewController.xib */,
+			);
+			name = DEMO;
+			sourceTree = "<group>";
+		};
+		C54C1EF51B96DDE70055E857 /* IURCbc */ = {
+			isa = PBXGroup;
+			children = (
+				C54C1EF61B96DE4B0055E857 /* UINavigationBar+ChangeNavigationBarBackgroundColor.h */,
+				C54C1EF71B96DE4B0055E857 /* UINavigationBar+ChangeNavigationBarBackgroundColor.m */,
+			);
+			name = IURCbc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C54C1EC51B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54C1EE91B96DD7B0055E857 /* Build configuration list for PBXNativeTarget "IURNavgationBarChangeBackgroundColor" */;
+			buildPhases = (
+				C54C1EC21B96DD7B0055E857 /* Sources */,
+				C54C1EC31B96DD7B0055E857 /* Frameworks */,
+				C54C1EC41B96DD7B0055E857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IURNavgationBarChangeBackgroundColor;
+			productName = IURNavgationBarChangeBackgroundColor;
+			productReference = C54C1EC61B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C54C1EDE1B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54C1EEC1B96DD7B0055E857 /* Build configuration list for PBXNativeTarget "IURNavgationBarChangeBackgroundColorTests" */;
+			buildPhases = (
+				C54C1EDB1B96DD7B0055E857 /* Sources */,
+				C54C1EDC1B96DD7B0055E857 /* Frameworks */,
+				C54C1EDD1B96DD7B0055E857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C54C1EE11B96DD7B0055E857 /* PBXTargetDependency */,
+			);
+			name = IURNavgationBarChangeBackgroundColorTests;
+			productName = IURNavgationBarChangeBackgroundColorTests;
+			productReference = C54C1EDF1B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54C1EBE1B96DD7B0055E857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = iurw;
+				TargetAttributes = {
+					C54C1EC51B96DD7B0055E857 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C54C1EDE1B96DD7B0055E857 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C54C1EC51B96DD7B0055E857;
+					};
+				};
+			};
+			buildConfigurationList = C54C1EC11B96DD7B0055E857 /* Build configuration list for PBXProject "IURNavgationBarChangeBackgroundColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54C1EBD1B96DD7B0055E857;
+			productRefGroup = C54C1EC71B96DD7B0055E857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54C1EC51B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor */,
+				C54C1EDE1B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C54C1EC41B96DD7B0055E857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54C1EFA1B96E0FF0055E857 /* bg.jpg in Resources */,
+				C54C1EF31B96DDD30055E857 /* IURExampleViewController.xib in Resources */,
+				C54C1EFF1B96E1540055E857 /* IURDetailViewController.xib in Resources */,
+				C54C1ED51B96DD7B0055E857 /* Main.storyboard in Resources */,
+				C54C1EDA1B96DD7B0055E857 /* LaunchScreen.xib in Resources */,
+				C54C1ED71B96DD7B0055E857 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54C1EDD1B96DD7B0055E857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C54C1EC21B96DD7B0055E857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54C1EF21B96DDD30055E857 /* IURExampleViewController.m in Sources */,
+				C54C1ED21B96DD7B0055E857 /* ViewController.m in Sources */,
+				C54C1ECF1B96DD7B0055E857 /* AppDelegate.m in Sources */,
+				C54C1EF81B96DE4B0055E857 /* UINavigationBar+ChangeNavigationBarBackgroundColor.m in Sources */,
+				C54C1EFE1B96E1540055E857 /* IURDetailViewController.m in Sources */,
+				C54C1ECC1B96DD7B0055E857 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54C1EDB1B96DD7B0055E857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54C1EE61B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C54C1EE11B96DD7B0055E857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C54C1EC51B96DD7B0055E857 /* IURNavgationBarChangeBackgroundColor */;
+			targetProxy = C54C1EE01B96DD7B0055E857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C54C1ED31B96DD7B0055E857 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54C1ED41B96DD7B0055E857 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54C1ED81B96DD7B0055E857 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54C1ED91B96DD7B0055E857 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C54C1EE71B96DD7B0055E857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C54C1EE81B96DD7B0055E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54C1EEA1B96DD7B0055E857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IURNavgationBarChangeBackgroundColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C54C1EEB1B96DD7B0055E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IURNavgationBarChangeBackgroundColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C54C1EED1B96DD7B0055E857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IURNavgationBarChangeBackgroundColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IURNavgationBarChangeBackgroundColor.app/IURNavgationBarChangeBackgroundColor";
+			};
+			name = Debug;
+		};
+		C54C1EEE1B96DD7B0055E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IURNavgationBarChangeBackgroundColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IURNavgationBarChangeBackgroundColor.app/IURNavgationBarChangeBackgroundColor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C54C1EC11B96DD7B0055E857 /* Build configuration list for PBXProject "IURNavgationBarChangeBackgroundColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54C1EE71B96DD7B0055E857 /* Debug */,
+				C54C1EE81B96DD7B0055E857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54C1EE91B96DD7B0055E857 /* Build configuration list for PBXNativeTarget "IURNavgationBarChangeBackgroundColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54C1EEA1B96DD7B0055E857 /* Debug */,
+				C54C1EEB1B96DD7B0055E857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C54C1EEC1B96DD7B0055E857 /* Build configuration list for PBXNativeTarget "IURNavgationBarChangeBackgroundColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54C1EED1B96DD7B0055E857 /* Debug */,
+				C54C1EEE1B96DD7B0055E857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54C1EBE1B96DD7B0055E857 /* Project object */;
+}
